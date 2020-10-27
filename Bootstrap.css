@@ -1,0 +1,568 @@
+* {
+    box-sizing: border-box;
+}
+
+html .page {
+    overflow: visible;
+}
+
+
+.lol {
+    background-color: white;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    height: 100vh;
+    position: fixed;
+}
+
+.lol-2 {
+    border-bottom: #EBEFF2 solid 1px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    right: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #F1F2F4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search {
+    color: #90A0B7;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.top-margin {
+    margin-top: 17px;
+    margin-left: 5%;
+}
+
+.height-total {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 16.7%;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #109CF1;
+    padding-top: 25px;
+    margin-left: 0.5em;
+}
+
+.underborder {
+    border-bottom: #EBEFF2 solid 1px;
+    padding-bottom: 5px;
+}
+
+.border-it {
+    border: brown 4px solid;
+}
+
+.re-position {
+    margin-left: 16%;
+    height: 790px;
+}
+
+.bell-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.bell-margin {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.abso {
+    border-bottom: #EBEFF2 solid 1px;
+    background-color: white;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+.marginify {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-top: 35px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+    padding-right: 15px;
+    margin: 0;
+    height: 100vh;
+    background-color: #F1F2F4;
+}
+
+
+.no-padding {
+    border: 2px brown solid;
+    position: absolute;
+    margin-left: 16.66%;
+    top: 60px;
+    width: 83.34%;
+    bottom: 0;
+}
+
+.abs {
+    margin-left: 4em;
+}
+
+.window-5 {
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    padding-top: 16px;
+    padding-right: 0;
+}
+
+.window-6 {
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 0;
+}
+
+/*fiddle with this*/
+
+
+.rightify {
+    margin-left: 34px;
+    height: 100vh;
+}
+
+.image-size {
+    width: 50px;
+    height: 47px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.flex-it {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-margin {
+    font-size: 13px;
+    color: #90A0B7;
+    font-weight: bold;
+    margin-top: -0.5em;
+}
+
+.small-name {
+    font-size: 15px;
+    font-weight: bold;
+    Height: 17px;
+}
+
+.littleish-margin {
+    justify-content: space-evenly;
+}
+
+.lower-it {
+    margin-top: 2em;
+    margin-left: 2%;
+}
+
+.element-margin {
+    margin-left: 1em;
+    margin-right: 0.3em;
+}
+
+.icons {
+    width: 16.67px;
+    height: 13.33px;
+}
+
+.smaller-icon {
+    width: 13.33px;
+    height: 3.33px;
+}
+
+.private-icon {
+    width: 16.67px;
+    height: 13.33px;
+}
+
+.toggle-icon {
+    height: 18px;
+    width: 18px;
+}
+
+.singular {
+    border-top: none;
+    margin-bottom: 24px;
+    padding-left: 1.1em;
+    padding-top: 0.2em;
+    height: 60px;
+    width: 256px;
+}
+
+.lower-border {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-bottom: #EBEFF2 solid 1px;
+    margin-top: 2em;
+}
+
+.marginal {
+    margin-left: 15%;
+}
+
+.small-sized:hover {
+    color: blue 0.2 solid;
+    cursor: pointer;
+}
+
+.small-sized {
+    font-size: 15px;
+    margin-bottom: 2em;
+    line-height: 19px;
+    font-weight: bold;
+    color: #334D6E;
+}
+
+.last {
+    margin-top: 25em;
+}
+
+.push-top {
+    margin-top: 3em;
+}
+
+.lower-vertical {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100%;
+}
+
+.last-item {
+    color: #90A0B7;
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.jj {
+    display: flex;
+    flex-direction: row wrap;
+    margin-left: 12%;
+}
+
+.no-margin {
+    margin: 0;
+    border: blue 3px solid;
+}
+
+.thin {
+    height: 4px;
+    border-radius: 3px;
+    margin-top: 16px;
+    background-color: #EBEFF2;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+    margin-bottom: 20px;
+}
+
+.green {
+    background-color: #2ED47A;
+}
+
+.bold-it {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.low-margin {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 1em;
+}
+
+.big {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    color: #192A3E;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.higher-margin {
+    height: 78px;
+    padding-left: 10%;
+}
+
+.margin-abit {
+    margin-top: 24px;
+}
+
+.blue-circle {
+    line-height: 50px;
+    padding: 6px 6px 6px 6px;
+    border-radius: 50%;
+    background-color: #109CF1;
+    color: white;
+}
+
+.blue-circle:hover {
+    cursor: pointer;
+}
+
+.blue-it {
+    color: #2EA9F3;
+}
+
+.left-it {
+    margin-left: 40px;
+}
+
+.grey-it {
+    color: #B2BCC9;
+    font-weight: bold;
+}
+
+.grey-it-less {
+    color: #B2BCC9;
+}
+
+.margin-maybe {
+    margin-left: 40px;
+}
+
+.image-adjust {
+    width: 30px;
+    height: 30px;
+}
+
+.stick {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #1FA2F2;
+    font-weight: bold;
+}
+
+.grey-bottom {
+    border-bottom: #EBEFF2 solid 1px;
+    margin-right: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.graph {
+    margin-top: 16px;
+    margin-bottom: 18px;
+    height: 344px;
+    width: 500px;
+}
+
+.help {
+    box-shadow: 0px 6px 18px 0px #000000 6%;
+}
+
+.marginss {
+    left: 0;
+    right: 0;
+    margin: 24px 24px 0 24px;
+    padding: 16px 30px 16px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.marginsss {
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: 24px 24px 0 24px;
+    padding: 16px 30px 16px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.marginssss {
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: 24px 24px 0 24px;
+    padding: 16px 30px 16px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+
+.top-it {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+.margin-toleft {
+    margin: 0;
+    padding: 0;
+}
+
+.little-margin {
+    justify-content: space-around; 
+}
+
+.lowy-margin {
+    text-align: right;
+}
+
+.powy-margin {
+    text-align: left;
+}
+
+.adjust-margin {
+    margin-top: 10px;
+}
+
+.margin-pls {
+    margin-bottom: 50px;
+}
+
+.grey-bottom {
+    border-bottom: #EBEFF2 solid 1px;
+}
+
+.absolutis {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.diagram {
+    padding: 0;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    Width: 445px;
+    Height: 290px;
+    margin-left: 0.4%;
+}
+
+.grey-line {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border: #EBEFF2 solid 1px;;
+}
+
+.loww {
+    height: fit-content;
+}
+
+.blueer {
+    color: #334D6E;
+    font-weight: bold;
+}
+
+.green-back {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #2ED47A;
+    color: white;
+    letter-spacing: 0.02em;
+}
+
+.red-back {
+    padding: 8px 24px 8px 24px;
+    border-radius: 4px;
+    background-color: #F7685B;
+    color: white;
+    letter-spacing: 0.02em;
+}
+
+
+.smaller {
+    font-size: 14px;
+}
+
+@media (max-width: 770px) {
+    .lol {
+        display: none;
+    }
+
+    .little-margin {
+        display: none;
+    }
+    
+    .marginify {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        left: 0;
+        width: 105%;
+    }
+
+    .height-total {
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+
+
+    .abso {
+        border: none;
+        border-bottom: #EBEFF2 solid 1px;
+        box-shadow: none;
+        border-radius: none;
+        margin: 0;
+    }
+
+    .grey-line {
+        margin-top: -40px;
+    }
+
+    .graph {
+        margin-top: 16px;
+        margin-bottom: 18px;
+    }
+
+    .fix-it {
+        margin-top: -30px;
+    }
+
+    .bold-it {
+        display: none;
+    }
+}
